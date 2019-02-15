@@ -1,11 +1,24 @@
 @extends('_layouts.master')
 
 @section('content')
-    <h1>Welcome to Artisan Static for Jigsaw</h1>
+    <h1>Portarias</h1>
 
-    <h2>Asset Compilation Test</h2>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Cidade</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputEstado">Estado</label>
+            <select id="inputEstado" class="form-control">
+                <option selected>Escolher...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputCEP">CEP</label>
+            <input type="text" class="form-control" id="inputCEP">
+        </div>
+    </div>
 
-    <p>CSS test: <span class="test-css">text with border and padding</span></p>
-
-    <p>JavaScript test: <a href="#" class="test-js">click me</a></p>
 @endsection
