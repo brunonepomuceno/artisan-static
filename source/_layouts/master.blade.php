@@ -23,21 +23,43 @@
     </header>
 
     <article>
-        <section class="container">
-            <h2>Portarias</h2>
+    <section class="bg-white text-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="pb-3 mb-4 border-bottom">
+                            Portarias
+                        </h1>
 
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="inputCity">Portaria</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-md-4">
-                    <label for="inputEstado">Data da publicação</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group col-md-2">
-                    <label for="inputCEP">Assunto</label>
-                    <input type="text" class="form-control">
+                        <div>
+                            
+                            <!-- Tabela -->
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Portaria</th>
+                                            <th>Data da publicação</th>
+                                            <th>Assunto</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><a href="<%=request.getContextPath()%>/artigo-completo.jsp?id=3359" class="text-dark hover-underline-animation-list">611/2018 e 911/2018</a></td>
+                                            <td>26/11/2018</td>
+                                            <td>Registro de Contratos</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <hr>
+                        <nav class="blog-pagination">
+                            <a class="btn bg-secondary text-white" href="artigo-lista.jsp">Mais portarias</a>
+                            <a class="text-secondary disabled float-right voltar-para-topo" href="#topo">Voltar para o topo <i class="fas fa-arrow-up"></i></a>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </section>
