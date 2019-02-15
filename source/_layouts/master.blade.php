@@ -28,19 +28,16 @@
 
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputCity">Cidade</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <label for="inputCity">Portaria</label>
+                    <input type="text" class="form-control">
                 </div>
                 <div class="form-group col-md-4">
-                    <label for="inputEstado">Estado</label>
-                    <select id="inputEstado" class="form-control">
-                        <option selected>Escolher...</option>
-                        <option>...</option>
-                    </select>
+                    <label for="inputEstado">Data da publicação</label>
+                    <input type="text" class="form-control">
                 </div>
                 <div class="form-group col-md-2">
-                    <label for="inputCEP">CEP</label>
-                    <input type="text" class="form-control" id="inputCEP">
+                    <label for="inputCEP">Assunto</label>
+                    <input type="text" class="form-control">
                 </div>
             </div>
         </section>
