@@ -46,10 +46,9 @@
         </section>
     </article>
 
-    <footer>
+    <footer class="container">
         <small>
-            This project is maintained by <a href="https://raniesantos.netlify.com">Ranie Santos</a>.
-            View the <a href="https://github.com/raniesantos/artisan-static">GitHub repo</a>.
+            <a href="https://www.searchtecnologia.com.br/index.jsp" target="_blank" class="">Search Tecnologia © 2019</a>
         </small>
     </footer>
 
